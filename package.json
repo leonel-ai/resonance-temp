@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "lerna": "^2.9.1"
+  },
+  "scripts": {
+    "dev": "lerna run start --stream --parallel",
+    "build": "lerna run build",
+    "build:production": "REACT_APP_DATA_ENV=production lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "start": "serve -s web-client/build -p $PORT",
+    "heroku-postbuild": "react-scripts build"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "yarn": "1.9.2"
+  },
+  "workspaces": [
+    "packages/*",
+    "web-client"
+  ],
+  "dependencies": {
+    "babel-plugin-react-transform": "^3.0.0",
+    "serve": "^9.4.0"
+  }
+}

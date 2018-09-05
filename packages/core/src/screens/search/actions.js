@@ -1,0 +1,3 @@
+export const SEARCH_TEXT_CHANGED = "search/SEARCH_TEXT_CHANGED"
+export const SEARCH = "search/SEARCH"
+export const SEARCH_RESULTS_RECEIVED = "search/SEARCH_RESULTS_RECEIVED"

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Atlas Grotesk Web";
+  src: url("./Atlas/AtlasGrotesk-Regular-Web.eot");
+  src: url("./Atlas/AtlasGrotesk-Regular-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("./Atlas/AtlasGrotesk-Regular-Web.woff2") format("woff2"),
+    url("./Atlas/AtlasGrotesk-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "GT-Pressura-Bold";
+  src: url("./GT-Pressura-Bold/GT-Pressura-Bold.eot");
+  src: url("./GT-Pressura-Bold/GT-Pressura-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./GT-Pressura-Bold/GT-Pressura-Bold.woff2") format("woff2"),
+    url("./GT-Pressura-Bold/GT-Pressura-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GT-Pressura";
+  src: url("./GT-Pressura/GT-Pressura-Light.eot");
+  src: url("./GT-Pressura/GT-Pressura-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./GT-Pressura/GT-Pressura-Light.woff2") format("woff2"),
+    url("./GT-Pressura/GT-Pressura-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GT-Pressura-Light";
+  src: url("./GT-Pressura-Light/GT-Pressura-Light.eot");
+  src: url("./GT-Pressura-Light/GT-Pressura-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./GT-Pressura-Light/GT-Pressura-Light.woff2") format("woff2"),
+    url("./GT-Pressura-Light/GT-Pressura-Light.woff") format("woff");
+}

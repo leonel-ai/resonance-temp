@@ -1,0 +1,30 @@
+.slider {
+  height: calc(100vh) !important;
+  text-align: "center";
+}
+.slider-list {
+  /* height: calc(100vh) !important; */
+}
+
+.slider-slide a {
+  color: white !important;
+}
+.slider button {
+  color: white !important;
+}
+
+.field_with_errors input {
+  border: 5px solid red;
+}
+.field_with_errors span {
+  color: red;
+}
+
+@media only screen and (min-width: 600px) {
+  .slider {
+    height: 400px !important;
+  }
+  .slider-list {
+    height: 600px !important;
+  }
+}

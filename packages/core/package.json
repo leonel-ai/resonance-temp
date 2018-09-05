@@ -1,0 +1,33 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "date-fns": "^2.0.0-alpha.7",
+    "draftjs-to-html": "^0.8.4",
+    "draftjs-to-markdown": "^0.5.1",
+    "immutable": "^3.8.2",
+    "isomorphic-fetch": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "react-toastify": "^4.2.3",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-plugin-syntax-async-generators": "*",
+    "babel-plugin-transform-async-to-generator": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.1",
+    "deep-equal": "^1.0.1",
+    "fetch-mock": "^6.0.1"
+  },
+  "scripts": {
+    "start": "babel ./src --ignore '*.test.js' --out-dir ./lib --copy-files --watch",
+    "build": "babel ./src --ignore '*.test.js' --out-dir ./lib --copy-files"
+  }
+}

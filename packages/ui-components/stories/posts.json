@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "type": "Link",
+      "title": "The quest for freedom should be for everyone",
+      "published": true,
+      "publication_date": 1526475022,
+      "publishedAtFormatted": "05.16.18",
+      "content": "",
+      "url": "http://www.144.io/new-page-1/",
+      "tags": ["art"],
+      "user": { "id": 2, "alias": "Frederica", "location": "The Internet" }
+    },
+    {
+      "id": 3,
+      "type": "Blog",
+      "title": "HYMN TO TIME",
+      "published": true,
+      "publication_date": 1526302222,
+      "publishedAtFormatted": "05.14.18",
+      "content":
+        "\n              HYMN TO TIME\n              by Ursula K. Le Guin\n\n              Time says “Let there be”  \n              every moment and instantly  \n              there is space and the radiance  \n              of each bright galaxy.  \n              And eyes beholding radiance.  \n              And the gnats’ flickering dance.  \n              And the seas’ expanse.  \n              And death, and chance.  \n              Time makes room  \n              for going and coming home  \n              and in time’s womb  \n              begins all ending.  \n              Time is being and being  \n              time, it is all one thing,  \n              the shining, the seeing,  \n              the dark abounding.  \n              ",
+      "url": "",
+      "tags": ["quotes"],
+      "user": { "id": 2, "alias": "Frederica", "location": "The Internet" }
+    },
+    {
+      "id": 2,
+      "type": "Link",
+      "title": "Practices of Transformative Movements",
+      "published": true,
+      "publication_date": 1526302222,
+      "publishedAtFormatted": "05.14.18",
+      "content": "",
+      "url":
+        "http://movementstrategy.org/b/wp-content/uploads/2016/07/MSC-Practices_of_Transformative_Movements-WEB.pdf",
+      "tags": [],
+      "user": { "id": 3, "alias": "Aerial", "location": "The Internet" }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "draft-js": "^0.10.5",
+    "material-ui": "^1.0.0-beta.40",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "nuka-carousel": "^4.2.3",
+    "react": "^16.3.1",
+    "react-audio-player": "^0.10.0",
+    "react-dom": "^16.3.1",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-dropzone": "^4.2.13",
+    "react-markdown": "^3.3.4",
+    "react-player": "^1.6.4",
+    "react-router-dom": "^4.3.1",
+    "react-tag-input": "^5.1.0",
+    "redux-form": "^7.4.2",
+    "url-search-params-polyfill": "^4.0.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-links": "^3.4.0",
+    "@storybook/addons": "^3.4.0",
+    "@storybook/react": "^3.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "scripts": {
+    "start": "babel ./src --ignore '*.test.js' --out-dir ./lib --copy-files --watch",
+    "build": "babel ./src --ignore '*.test.js' --out-dir ./lib --copy-files",
+    "storybook": "start-storybook -p 6006"
+  }
+}
